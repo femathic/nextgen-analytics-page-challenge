@@ -3,7 +3,7 @@ import React from 'react';
 const Navs = () => (
   <section className="flex flex-wrap items-center justify-around lg:justify-between nav-background-color py-4 px-6 xl:pl-24 xl:pr-64 shadow">
     <button type="button" className="flex items-center rounded secondary-text-color font-semibold text-sm border-0 p-3 hover:opacity-75">
-      <span className="ml-3 lg:ml-6 mr-3 lg:mr-4 tracking-wider">OVERVIEW</span>
+      <span className="ml-3 lg:ml-6 mr-3 lg:nmr-4 tracking-wider">OVERVIEW</span>
       <svg className="h-2 md:h-4 fill-current secondary-text-color" viewBox="0 0 25 14" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M0 0.99292H25L12.4911 13.5042L0 0.99292Z" />
       </svg>
