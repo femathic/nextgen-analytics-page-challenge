@@ -22,7 +22,7 @@ const SmallNav = () => (
 const Navbar = () => {
   const [showSmallNav, setShowSmallNav] = useState(false);
   return (
-    <nav style={{ borderBottom: '2px solid #1bfbe4' }}>
+    <nav style={{ borderBottom: '2px solid #1bfbe4' }} className="wow fadeInDown">
       <div className="flex flex-wrap items-center justify-between bg-transparent py-0 pr-0 pl-0 xl:pl-40 w-full">
         <img src={logo} className="w-32 md:w-48 my-4 mx-10" alt="Innovasjon Norge" />
         <button
