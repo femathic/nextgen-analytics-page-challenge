@@ -2,6 +2,7 @@
   "name": "nextgen-analytics-page-challenge",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://femathic.github.io/nextgen-analytics-page-challenge",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -14,6 +15,8 @@
   "scripts": {
     "build:style": "postcss src/styles/index.css -o src/styles/tailwind.css",
     "start": "npm run build:style && react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "npm run build:style && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -41,6 +44,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^2.5.1",
+    "gh-pages": "^3.0.0",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.4.6"
   }
