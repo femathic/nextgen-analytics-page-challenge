@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nextgen-analytics-page-challenge/precache-manifest.3eb066e1f7ef1936ff3e98de42c11228.js"
+  "/nextgen-analytics-page-challenge/precache-manifest.5ce52ea9ad0cf5a3921b3bfac0f808c0.js"
 );
 
 self.addEventListener('message', (event) => {
