@@ -22,7 +22,7 @@ const options = {
       ticks: {
         fontFamily: 'Montserrat',
         fontColor: '#849fb4',
-        fontSize: 12,
+        fontSize: 10,
         min: 0,
         max: 12,
         stepSize: 3,
@@ -37,6 +37,7 @@ const options = {
       ticks: {
         fontFamily: 'Montserrat',
         fontColor: '#849fb4',
+        fontSize: 10,
       },
       gridLines: {
         display: false,
@@ -73,11 +74,11 @@ const Chart2 = () => {
   }, []);
   return (
     <section className="px-4 md:px-10 xl:px-0 mt-6 xl:mt-0 wow fadeInUp">
-      <div className="w-full py-3 pl-3 mt-0 xl:mt-6 nav-background-color rounded-lg">
-        <h4 className="secondary-text-color text-center font-semibold text-lg pb-8 pt-4 px-1 tracking-wider">
+      <div className="w-full py-4 pl-3 mt-0 xl:mt-4 nav-background-color rounded-lg">
+        <h4 className="secondary-text-color text-center font-medium text-sm pb-8 pt-3 px-1 tracking-wider">
           Companies
         </h4>
-        <canvas id="companies" height="100px" className="m-0 p-0"><p>Unable to display graph</p></canvas>
+        <canvas id="companies" height="95px" className="m-0 p-0"><p>Unable to display graph</p></canvas>
       </div>
     </section>
   );
